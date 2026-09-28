@@ -1,0 +1,5 @@
+﻿_favicon-backup-before-new8/
+_hero-backup-before-new8/
+*.bak
+__pycache__/
+*.pyc

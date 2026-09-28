@@ -1,0 +1,127 @@
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,"Malgun Gothic",sans-serif;
+  background:#f5f7fb;
+  color:#18202a;
+}
+.wrap{
+  width:min(760px,92%);
+  margin:0 auto;
+}
+.top{
+  background:#172738;
+  color:#fff;
+  padding:18px 0;
+}
+.brand{
+  color:#fff;
+  font-size:20px;
+  font-weight:900;
+  text-decoration:none;
+}
+.breadcrumb{
+  padding:20px 0 12px;
+  font-size:13px;
+  color:#667;
+}
+.card{
+  background:#fff;
+  border:1px solid #e0e5eb;
+  border-radius:18px;
+  padding:28px;
+  box-shadow:0 8px 26px rgba(0,0,0,.06);
+}
+.shop-name{
+  margin:0 0 8px;
+  font-size:30px;
+}
+.area{
+  color:#667;
+  margin-bottom:24px;
+}
+.shop-intro{
+  margin:24px 0 10px;
+  padding:20px;
+  background:#f8fafc;
+  border:1px solid #e5eaf0;
+  border-radius:14px;
+}
+.shop-intro h2{
+  margin:0 0 12px;
+  font-size:20px;
+}
+.shop-intro p{
+  margin:0 0 12px;
+  line-height:1.8;
+  color:#4e5d6b;
+  word-break:keep-all;
+}
+.shop-intro p:last-child{
+  margin-bottom:0;
+}
+.course{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:22px;
+}
+.course th,
+.course td{
+  padding:15px 12px;
+  border-bottom:1px solid #eceff3;
+  text-align:left;
+  line-height:1.55;
+}
+.course th{
+  width:34%;
+  color:#27394b;
+}
+.phone{
+  margin:26px 0 14px;
+  text-align:center;
+  font-size:22px;
+  font-weight:900;
+}
+.actions{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+.actions a{
+  display:flex;
+  height:52px;
+  align-items:center;
+  justify-content:center;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:900;
+}
+.call{
+  background:#183f63;
+  color:#fff;
+}
+.sms{
+  background:#ffd54a;
+  color:#24313d;
+}
+.note{
+  margin-top:22px;
+  padding:16px;
+  background:#f7f9fb;
+  border-radius:12px;
+  font-size:14px;
+  line-height:1.7;
+  color:#55616d;
+}
+.back{
+  display:block;
+  margin:20px 0 40px;
+  text-align:center;
+  color:#445;
+}
+@media(max-width:600px){
+  .card{padding:20px}
+  .shop-name{font-size:25px}
+  .course th,.course td{padding:12px 8px;font-size:13px}
+  .actions{grid-template-columns:1fr 1fr}
+}

@@ -1,0 +1,388 @@
+/* 인서경마사지 전체 공통 테마 */
+
+html,body{
+  background:#fffafb!important;
+  color:#394654!important;
+}
+
+/* 상단 영역 */
+.ry-topbar,
+.top{
+  background:#f6dce3!important;
+  color:#35465a!important;
+}
+
+.ry-brand,
+.brand{
+  color:#35465a!important;
+}
+
+.ry-brand b{
+  color:#d78da2!important;
+}
+
+/* 히어로 */
+.hero{
+  background:linear-gradient(
+    135deg,
+    #fff8fa 0%,
+    #fdeef2 50%,
+    #f9e1e7 100%
+  )!important;
+}
+
+.eyebrow{
+  color:#c67790!important;
+}
+
+.hero h1{
+  color:#30445a!important;
+}
+
+.hero p{
+  color:#65717f!important;
+}
+
+.hero-note span{
+  background:rgba(255,255,255,.75)!important;
+  border-color:#efcbd5!important;
+  color:#566472!important;
+}
+
+/* 지역 카드 */
+.region-card,
+.area-card{
+  background:#fffafa!important;
+  border-color:#efd2da!important;
+  color:#35465a!important;
+  box-shadow:0 8px 20px rgba(116,71,85,.05)!important;
+}
+
+.hero>.wrap>.region-grid .region-card:nth-child(1),
+.hero>.wrap>.region-grid .region-card:nth-child(2),
+.hero>.wrap>.region-grid .region-card:nth-child(3){
+  background:linear-gradient(
+    135deg,
+    #fff7f9,
+    #f8dfe6
+  )!important;
+  color:#35465a!important;
+}
+
+/* 섹션 */
+.section,
+.editorial{
+  background:#fffafb!important;
+  color:#465563!important;
+}
+
+.section-head span{
+  color:#c67790!important;
+}
+
+.section-head h2,
+.editorial h2,
+.editorial h3,
+.text-box h3{
+  color:#30445a!important;
+}
+
+.section-head p,
+.editorial p,
+.text-box p{
+  color:#687581!important;
+}
+
+/* 본문 강조 영역 */
+.editorial{
+  background:linear-gradient(
+    135deg,
+    #fff7f9 0%,
+    #fdecef 55%,
+    #f9e0e6 100%
+  )!important;
+}
+
+.text-box,
+.check-item{
+  background:rgba(255,255,255,.58)!important;
+  border:1px solid #efcbd5!important;
+  color:#465563!important;
+}
+
+/* 업체 카드 */
+.company-card{
+  background:#fffdfd!important;
+  border:1px solid #efcbd5!important;
+  box-shadow:0 8px 22px rgba(116,71,85,.06)!important;
+}
+
+.company-card:hover{
+  border-color:#e3aebd!important;
+  box-shadow:0 13px 28px rgba(116,71,85,.11)!important;
+}
+
+.company-name,
+.shop-name{
+  color:#30445a!important;
+}
+
+.company-sub,
+.contact-line,
+.area{
+  color:#687581!important;
+}
+
+/* 상세페이지 설명 박스 */
+.card{
+  background:#fffdfd!important;
+  border-color:#efd2da!important;
+}
+
+.shop-intro,
+.note{
+  background:#fff7f9!important;
+  border-color:#efd2da!important;
+}
+
+.shop-intro h2{
+  color:#30445a!important;
+}
+
+.shop-intro p,
+.note{
+  color:#687581!important;
+}
+
+/* 코스표 */
+.course th{
+  color:#35465a!important;
+}
+
+.course th,
+.course td{
+  border-color:#f0dce2!important;
+}
+
+/* 버튼 */
+.company-actions .call,
+.actions .call{
+  background:#d990a4!important;
+  color:#fff!important;
+  border-color:#d990a4!important;
+}
+
+.company-actions .sms,
+.actions .sms{
+  background:#f9e1e7!important;
+  color:#35465a!important;
+  border:1px solid #edc4cf!important;
+}
+
+/* 링크 및 기타 */
+.breadcrumb,
+.back{
+  color:#6d7781!important;
+}
+
+footer{
+  background:#f8e8ed!important;
+  color:#5e6975!important;
+}
+
+/* CLOUD-MASSAGE-STAGE1-20260924 */
+/* 첫 번째 브랜드 시범: 기존 배치를 유지하고 대비가 뚜렷한 블루 테마만 덧씁니다. */
+:root {
+  --ink:#162d40; --navy:#183e60; --paper:#f2f8fc;
+  --white:#ffffff; --line:#c9ddeb; --muted:#496577; --accent:#226da1;
+}
+html,body {background:#f2f8fc!important;color:#162d40!important;}
+.ry-topbar,.top,.topbar {background:#dcecf7!important;color:#183e60!important;}
+.ry-brand,.brand,.top a,.topbar a {color:#183e60!important;}
+.ry-brand b {color:#226da1!important;}
+.hero {background:linear-gradient(135deg,#ffffff 0%,#eaf5fc 55%,#d9ebf8 100%)!important;}
+.hero h1,.hero h2,.section-head h2,.article h2,.article h3,.company-name,
+.shop-name,.company-card h2,.company-card h3 {color:#183e60!important;}
+.hero p,.article p,.section-head p,.company-card p {color:#34536a!important;}
+.eyebrow,.section-head span,.contact-line {color:#226da1!important;}
+.hero-note span,.area-link,.check,.company-card {
+  background:#ffffff!important;color:#183e60!important;border-color:#c9ddeb!important;
+}
+.region-card,.area-card,.hero>.wrap>.region-grid .region-card:nth-child(1),
+.hero>.wrap>.region-grid .region-card:nth-child(2),
+.hero>.wrap>.region-grid .region-card:nth-child(3) {
+  background:linear-gradient(135deg,#ffffff,#dfeefa)!important;
+  color:#183e60!important;border-color:#c9ddeb!important;
+}
+.region-card strong,.region-card small,.region-card span {color:#183e60!important;}
+.section,.editorial {background:#f2f8fc!important;color:#183e60!important;}
+.editorial p,.editorial h2,.text-box h3 {color:#183e60!important;}
+.text-box {background:#e3f0f9!important;color:#183e60!important;}
+.company-actions .call,.call {background:#183e60!important;color:#fff!important;}
+.company-actions .sms,.sms {background:#226da1!important;color:#fff!important;}
+footer {background:#122d44!important;color:#dcecf7!important;}
+footer strong {color:#ffffff!important;}
+/* END CLOUD-MASSAGE-STAGE1-20260924 */
+
+
+/* INSEGY-BULK-STAGE2-site-01 */
+/* 브랜드별 전체 색상 + 기존 노란 안내 바/빨간 버튼을 포함한 테마 보정 */
+:root { --ink:#174b79; --navy:#174b79; --paper:#edf7ff;
+  --white:#fff; --line:#c8e0f4; --muted:#174b79; --accent:#2973b8; }
+html,body { background:#edf7ff!important; color:#174b79!important; }
+.ry-topbar,.top,.topbar { background:#d7eafb!important; color:#174b79!important; }
+.ry-brand,.brand,.top a,.topbar a { color:#174b79!important; }
+.ry-brand b,.eyebrow,.section-head span,.contact-line { color:#2973b8!important; }
+.hero { background:linear-gradient(135deg,#f8fcff 0%,#edf7ff 52%,#d7eafb 100%)!important; }
+.hero h1,.hero h2,.section-head h2,.article h2,.article h3,.company-name,
+.shop-name,.company-card h2,.company-card h3 { color:#174b79!important; }
+.hero p,.article p,.section-head p,.company-card p { color:#174b79!important; }
+.hero-note span,.area-link,.check,.company-card {
+  background:#fff!important; color:#174b79!important; border-color:#c8e0f4!important;
+}
+.region-card,.area-card,.hero>.wrap>.region-grid .region-card:nth-child(1),
+.hero>.wrap>.region-grid .region-card:nth-child(2),
+.hero>.wrap>.region-grid .region-card:nth-child(3) {
+  background:linear-gradient(135deg,#f8fcff,#d7eafb)!important;
+  color:#174b79!important; border-color:#c8e0f4!important;
+}
+.region-card strong,.region-card small,.region-card span { color:#174b79!important; }
+.section,.editorial { background:#edf7ff!important; color:#174b79!important; }
+.editorial p,.editorial h2,.text-box h3 { color:#174b79!important; }
+.text-box { background:#d7eafb!important; color:#174b79!important; }
+.company-actions .call,.call,.ry-buttons a.primary,.ry-buttons .primary {
+  background:#174b79!important; color:#fff!important; border-color:#174b79!important;
+}
+.company-actions .sms,.sms { background:#2973b8!important; color:#fff!important; }
+.ry-reservation,.ry-reservation .wrap {
+  background:#d7eafb!important; color:#174b79!important; border-color:#c8e0f4!important;
+}
+.ry-reservation strong,.ry-reservation span { color:#174b79!important; }
+.ry-buttons a:not(.primary) {
+  background:#f8fcff!important; color:#174b79!important; border-color:#c8e0f4!important;
+}
+/* 업체 카드 번호/배지는 해당 클래스를 사용하는 경우에만 변경 */
+.company-card .company-number,.company-card .company-rank,.company-card .company-no,
+.company-card .rank,.company-card .badge,.company-card .number,
+.company-card [class*="badge"],.company-card [class*="rank"] {
+  background:#174b79!important; color:#fff!important;
+}
+footer { background:#174b79!important; color:#d7eafb!important; }
+footer strong { color:#fff!important; }
+/* END INSEGY-BULK-STAGE2-site-01 */
+
+
+/* NEW8 DESIGN START */
+
+/* site-09 */
+body{
+    background:#111827!important;
+    color:#FFF8E7!important;
+}
+
+header,.top,.site-header{
+    background:#1F2937!important;
+    border-bottom:1px solid #D4A017!important;
+}
+
+.brand,.logo,.site-title{
+    color:#D4A017!important;
+    font-weight:900!important;
+}
+
+.hero{
+    background:linear-gradient(135deg,#111827,#292524)!important;
+    border:1px solid #D4A017!important;
+    border-radius:10px!important;
+    box-shadow:0 14px 36px rgba(0,0,0,.28)!important;
+}
+
+.hero h1,.hero h2,
+section h2,section h3{
+    color:#FFF8E7!important;
+}
+
+.hero p,.hero-note,
+section p,.breadcrumb{
+    color:#D6C8A6!important;
+}
+
+.region-card,
+.area-card,
+.company-card,
+.info-card,
+.shop-card,
+.card{
+    background:#1F2937!important;
+    border:1px solid color-mix(in srgb,#D4A017 28%,transparent)!important;
+    border-radius:10px!important;
+    box-shadow:0 14px 36px rgba(0,0,0,.28)!important;
+    transition:transform .18s ease,box-shadow .18s ease!important;
+}
+
+.region-card:hover,
+.area-card:hover,
+.company-card:hover,
+.shop-card:hover{
+    transform:translateY(-3px)!important;
+}
+
+.region-card strong,
+.region-card span,
+.region-card small,
+.area-link{
+    color:#D4A017!important;
+}
+
+.company-actions .call,
+.call,
+.ry-buttons a.primary,
+.ry-buttons .primary,
+.btn-primary,
+.primary{
+    background:linear-gradient(135deg,#D4A017,#F2C94C)!important;
+    color:#fff!important;
+    border:0!important;
+    border-radius:10px!important;
+}
+
+.company-actions .sms,
+.sms,
+.btn-secondary,
+.secondary{
+    background:#1F2937!important;
+    color:#D4A017!important;
+    border:1px solid #D4A017!important;
+    border-radius:10px!important;
+}
+
+footer,.footer{
+    background:#1F2937!important;
+    color:#D6C8A6!important;
+    border-top:1px solid #D4A017!important;
+}
+
+/* NEW8 DESIGN END */
+
+/* NEW8-DESIGN-START */
+
+/* site-24: mosaic / asymmetric */
+:root{--n8-bg:#eef7ff;--n8-surface:#ffffff;--n8-ink:#142a3f;--n8-accent:#2477b7;--n8-line:#cfe2f2}
+body{background:radial-gradient(circle at 10% 0,#dfefff 0,transparent 28%),#f6fbff;color:var(--n8-ink)}
+body>header{background:#fff;border-bottom:1px solid var(--n8-line);box-shadow:0 6px 18px rgba(38,93,137,.06)}
+main{max-width:1220px;margin:auto;padding:20px}
+main>section{margin:26px 0;padding:30px;border-radius:20px;background:#fff;border:1px solid var(--n8-line)}
+main>section:first-of-type{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:stretch}
+main>section:first-of-type img{width:100%;height:100%;object-fit:cover;border-radius:18px}
+.region-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.region-grid>a,.region-grid>div{grid-column:span 2;background:#f4faff;border:1px solid #c7dfef;border-radius:14px;padding:18px}
+.region-grid>a:nth-child(1),.region-grid>div:nth-child(1){grid-column:span 4}
+.region-grid>a:nth-child(4),.region-grid>div:nth-child(4){grid-column:span 3}
+#companies{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+#companies>a,#companies>article,#companies>div{grid-column:span 3;background:#fff;border:1px solid var(--n8-line);border-radius:18px}
+#companies>a:first-child,#companies>article:first-child,#companies>div:first-child{grid-column:span 4}
+#companies>a:nth-child(2),#companies>article:nth-child(2),#companies>div:nth-child(2){grid-column:span 2}
+a[class*="btn"],button{border-radius:14px}
+@media(max-width:780px){main>section:first-of-type{grid-template-columns:1fr}.region-grid,#companies{grid-template-columns:1fr}.region-grid>* ,#companies>*{grid-column:auto!important}}
+
+/* NEW8-DESIGN-END */
